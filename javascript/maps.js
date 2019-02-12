@@ -2,6 +2,10 @@ var map, heatmap;
 var markers = [];
 var persons = [
     /* Name, Lat, Long, Weight, Sequence Num */
+    ['Saurav B', 12.927, 77.647, 1.0],
+    ['Gaurav DG', 28.564, 77.191, 1.0],
+    ['Shinjini BDG', 28.567, 77.229, 1.0],
+    ['Subhrangshu G', 22.512, 88.417, 1.0],
     ['Saibal M', 22.594, 88.418, 1.0],
     ['Malabika M', 37.675, -121.899, 1.0],
     ['Somnath M', 37.669, -121.899, 1.0],
@@ -65,6 +69,7 @@ function getPoints() {
     return [
         new google.maps.LatLng(37.782551, -122.445368),
         new google.maps.LatLng(37.782745, -122.444586),
+	{location: new google.maps.LatLng(22.321, 87.310), weight: 1},
 	{location: new google.maps.LatLng(36.099365, -115.173028), weight: 2},
 	{location: new google.maps.LatLng(34.101561, -118.338319), weight: 15}
     ];
